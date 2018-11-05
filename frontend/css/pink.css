@@ -1,0 +1,24 @@
+.question-box button,.h-text button, .h-text a.find, .text button, .days-wrap button, .s4 button, .format-application .btn, .s2 button, .s1 .buttons1 button,.fline .fbtn{
+	background-color: #ed008c !important;
+	    -webkit-box-shadow: 0 0 20px 0 #ed008c !important;
+    box-shadow: 0 0 20px 0 #ed008c !important;
+}
+.red,.days h4, blockquote p span,.timeline .timeline-box span,.s6 h3{
+	color: #ed008c !important;
+}
+.timeline-box:hover, .timeline-box:focus {
+    -webkit-box-shadow: 0px 3px 0px 0px #ed008c;
+    -moz-box-shadow: 0px 3px 0px 0px #ed008c;
+    box-shadow: 0px 3px 0px 0px #ed008c;
+}
+.underline {
+    border-bottom: 2px solid #ed008c !important;}
+    blockquote:before, blockquote:after {
+    color: #ed008c;
+    background: linear-gradient(to right, #ed008c 45%, transparent 45%, transparent), linear-gradient(to right, transparent, transparent 55%, #ed008c 55%);
+}
+
+.mtable .red{color: #e91a45 !important;}
+    
+.main-head {
+    background-image: url("../img/bg3.jpg"/*tpa=https://yaroslav-samoylov.com/pages/yaroslav/sept-l2/img/bg.jpg*/);}

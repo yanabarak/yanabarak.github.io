@@ -1,0 +1,167 @@
+
+.wrapper-input-phone {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.wrapper-input-phone .flag-container {
+    width: 100px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+}
+.wrapper-input-phone .flag-container:hover {
+    cursor: pointer;
+}
+.wrapper-input-phone .flag-container * {
+    box-sizing: border-box;
+}
+.wrapper-input-phone .flag-container .selected-flag {
+    width: 40px;
+    padding: 0 0 0 0px;
+}
+.wrapper-input-phone .flag-container .picked-code {
+    width: 60px;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+}
+
+.wrapper-input-phone .input-phone {
+    border: none!important;
+    background: transparent !important;
+    padding: 0!important;
+    margin: 0!important;
+    text-align: left !important;
+}
+.wrapper-input-phone .input-phone:focus {
+    outline: 0;
+}
+
+.wrapper-input-phone .divider {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.iti-arrow {
+    margin: -8px 3px 0 0;
+    right: 0;
+    width: 0;
+    left: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 4px solid #555;
+    float: right;
+}
+
+
+.inputValid,
+.inputNotValid {
+    position: relative;
+}
+.inputValid::before{
+    content: "✔";
+    color: #81ea81;
+    font-size: 31px;
+    position: absolute;
+    display: block;
+    top: 6px;
+    right: 10px;
+    line-height: 1;
+}
+.inputValid .invalid-text-message {
+    display: none;
+}
+.inputNotValid .invalid-text-message {
+    display: block;
+}
+.inputNotValid::before{
+    content: "✖";
+    color: #e67171;
+    font-size: 31px;
+    position: absolute;
+    display: block;
+    top: 9px;
+    right: 10px;
+    line-height: 1;
+}
+ .invalid-text-message {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    font-size: 12px;
+    width: 100%;
+    color: #d03b3b;
+    font-style: italic;
+    margin: 3px 0 0 0;
+    display: none;
+}
+@media (max-width:420px) {
+   .invalid-text-message {
+        font-size: 8px;
+    }
+}
+
+.eSec .wrapper-input-phone{
+    margin: 0;
+        
+    border: 2px solid #eee;
+    background-color: transparent;
+    width: 100%;
+    padding: 14px 15px 14px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.eSec .input-phone{
+    font-family: "Roboto Condensed";
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "РІ, Р°С€Рµ РёРјСЏ" */
+    letter-spacing: 3.64px;
+    font-style: normal;
+    max-width: 160px;
+}
+
+.eSec .wrapper-input-phone .flag-container{
+    padding-top: 0;
+}
+
+.eSec .wrapper-input-phone .flag-container .picked-code{
+    font-family: "Roboto Condensed";
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "РІ, Р°С€Рµ РёРјСЏ" */
+    letter-spacing: 3.64px;
+    font-style: normal;
+}
+
+.eSec .input-phone::placeholder{
+    text-align: left;
+}
+.eSec .wrapper-input-phone .valid-box,
+.eSec .wrapper-input-phone .invalid-box{
+    top: 9px;
+    right: 10px;
+}
+
+.eSec .inputValid::before,
+.eSec .inputNotValid::before{
+    top: 11px;
+    z-index: 100;
+}
+
+/*.modal .invalid-text-message{
+    margin-top: 17px;
+}*/

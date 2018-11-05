@@ -1,0 +1,324 @@
+.clock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.clock-img1,
+.clock-img2,
+.clock-img3,
+.clock-text {
+  width: 40%;
+  padding: 3px;
+}
+
+.clock-price {
+  color: #ff0000;
+}
+
+
+.clock-price span  {
+  color: #000;
+  text-decoration: line-through;
+}
+
+.clock-text_header {
+  color: #f00;
+  font-size: 24px;
+}
+
+.clock-text_paragraph {
+	font-size: 12px;
+}
+
+.red-color {
+color: red;
+}
+
+.style001 {
+  color: rgb(242, 251, 255);
+  background-size: auto auto;
+  background-position: center center;
+  background-repeat: repeat;
+  background-image: url(../img/8.png)/*tpa=http://best-store.in.ua/bags.ua-sale.pro/landings/sumka-polo/img/8.png*/;
+}
+.time {
+  display: block;
+  position: relative;
+  left: 50%;
+  margin-left: -203px;
+  height: 55px;
+  clear: both;
+}
+
+.time li {
+  float: left;
+  font-size: 38px;
+  color: white;
+  list-style-type: none;
+  position: relative;
+  top: 14px;
+  font-family: 'B20';
+  font-weight: bold;
+}
+
+.time-bg {
+  font-size: 54px !important;
+  width: 36px;
+  height: 51px;
+  padding-top: 5px;
+  margin-top: -14px;
+}
+
+.time-name {
+  margin-left: -47px;
+}
+
+.time-name li {
+  display: inline-block;
+  width: 70px;
+  font-size: 11px;
+  list-style-type: none;
+  margin: 0 4px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .time-name {
+    width: 300px;
+    margin-left: -60px;
+  }
+  .time-name li {
+    width: 53px;
+  }
+  .time {
+    margin-left: -180px;
+    width: 300px;
+    margin-bottom: -17px;
+  }
+  .time li {
+
+    font-size: 18px;
+  }
+  .time-bg {
+    font-size: 31px !important;
+    width: 30px;
+  }
+}
+
+
+.order-form button[type=submit]{
+
+  width: 100%;
+  position: relative;
+  border-width: 0;
+  overflow: hidden;
+  white-space: normal;
+  transition-property: box-shadow, transform, color, background-color, border-color !important;
+  background-color: rgb(156, 0, 0);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 3px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-color: rgb(124, 0, 0);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+a[modal=polit] {
+  color: black !important;
+  text-decoration: none;
+}
+.node191 a {
+  color: rgb(25, 178, 230);
+}
+
+
+#uid73,
+#uid97,
+#uid88 {
+  text-decoration: none;
+  background-color: rgb(204, 41, 41);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 3px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-color: rgb(163, 33, 33);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+#uid73:hover, #uid73.hover,
+#uid97:hover, #uid97.hover,
+#uid88:hover, #uid88.hover {
+  background-color: rgb(184, 37, 37);
+  border-color: rgb(131, 26, 26);
+  color: rgb(255, 255, 255);
+}
+
+#uid73:active, #uid73.active,
+#uid97:active, #uid97.active,
+#uid88:active, #uid88.active {
+  background-color: rgb(184, 37, 37);
+  border-color: rgb(147, 29, 29);
+  border-top-width: 3px;
+  border-bottom-width: 1px;
+  color: rgb(255, 255, 255);
+  box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+#uid109 {
+  background-color: rgba(194, 194, 194, 0);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-style: solid;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-color: rgb(194, 194, 194);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 14px;
+  text-decoration: underline;
+  color: rgb(194, 194, 194);
+}
+
+#uid109:hover, #uid109.hover {
+  background-color: rgba(174, 174, 174, 0);
+  border-color: rgb(174, 174, 174);
+  color: rgb(155, 155, 155);
+}
+
+#uid109:active, #uid109.active {
+  background-color: rgba(174, 174, 174, 0);
+  border-color: rgb(140, 140, 140);
+  color: rgb(124, 124, 124);
+}
+.blacktimer li {
+  color: black;
+}
+
+
+#uid67 {
+  background-color: rgba(248, 0, 255, 0);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-style: solid;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-color: rgb(248, 0, 255);
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+#uid67:hover, #uid67.hover {
+  background-color: rgba(223, 0, 230, 0);
+  border-color: rgb(223, 0, 230);
+  color: rgb(255, 255, 255);
+}
+
+#uid67:active, #uid67.active {
+  background-color: rgba(223, 0, 230, 0);
+  border-color: rgb(178, 0, 184);
+  color: rgb(255, 255, 255);
+}
+
+
+#uid117 {
+  background-color: rgb(171, 123, 0);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 3px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-color: rgb(137, 98, 0);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+#uid117:hover, #uid117.hover {
+  background-color: rgb(154, 111, 0);
+  border-color: rgb(109, 79, 0);
+  color: rgb(255, 255, 255);
+}
+
+#uid117:active, #uid117.active {
+  background-color: rgb(154, 111, 0);
+  border-color: rgb(123, 89, 0);
+  border-top-width: 3px;
+  border-bottom-width: 1px;
+  color: rgb(255, 255, 255);
+  box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 480px){
+  body {
+      font-size: 95%;
+      padding: 10px 8px;
+      width: 100% !important;
+      overflow: hidden;
+  }
+}.social-icons img{width: 43px;height: 43px;margin: 10px;}
+.social-icons img:hover, .social-icons img:active{
+  -webkit-filter: drop-shadow(0px 0px 2px #FFD5F9 );
+  filter: drop-shadow(0px 0px 2px #FFD5F9);
+}
+.social-icons img {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ transition: all 1s ease-out;
+ }
+ 
+.social-icons img:hover{
+ -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -o-transform: scale(1.2);
+ transform: scale(1.2);
+ }
+.macros-button .btn-out.right{
+text-align:center;
+}

@@ -3,6 +3,14 @@ Barak Yana`s last works
 
   Adaptive and cross-browser websites and landig pages:
  
+https://yanabarak.github.io/m7
+
+https://yanabarak.github.io/frontend
+
+https://yanabarak.github.io/proof
+
+https://yanabarak.github.io/v2
+
 https://yanabarak.github.io/animal/ - site for homeless animal
 
 https://yanabarak.github.io/ivi-soft/ - site for software development company

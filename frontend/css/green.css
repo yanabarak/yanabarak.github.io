@@ -1,0 +1,32 @@
+.question-box button,.h-text button, .h-text a.find, .text button, .days-wrap button, .s4 button, .format-application .btn, .s2 button, .s1 .buttons1 button,.fline .fbtn{
+	background-color: #FF8500 !important;
+	    -webkit-box-shadow: 0 0 20px 0 #FF8500 !important;
+    box-shadow: 0 0 20px 0 #FF8500 !important;
+}
+.red,.days h4, blockquote p span,.timeline .timeline-box span,.s6 h3{
+	color: #076e01 !important;
+}
+
+.mtable .red{color: #e91a45 !important;}
+.timeline-box:hover, .timeline-box:focus {
+    -webkit-box-shadow: 0px 3px 0px 0px #18cf1d;
+    -moz-box-shadow: 0px 3px 0px 0px #18cf1d;
+    box-shadow: 0px 3px 0px 0px #18cf1d;
+}
+.underline {
+    border-bottom: 2px solid #18cf1d !important;}
+    blockquote:before, blockquote:after {
+    color: #18cf1d;
+    background: linear-gradient(to right, #18cf1d 45%, transparent 45%, transparent), linear-gradient(to right, transparent, transparent 55%, #18cf1d 55%);
+}
+    .fline .fbtn {
+    box-shadow: 0 5px 10px 0 rgba(23, 243, 136, 0.57) !important;
+}
+.sel img{
+
+     -webkit-filter: hue-rotate(110deg);
+    filter: hue-rotate(110deg);
+}.main-head {
+    background-image: url("../img/bg4.jpg");}.main-head .red, .s2 .red{
+   color:#18cf1d !important; 
+}
