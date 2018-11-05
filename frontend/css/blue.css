@@ -1,0 +1,32 @@
+.question-box button,.h-text button, .h-text a.find, .text button, .days-wrap button, .s4 button, .format-application .btn, .s2 button, .s1 .buttons1 button,.fline .fbtn{
+	background-color: #3333ff !important;
+	    -webkit-box-shadow: 0 0 20px 0 #3333ff !important;
+    box-shadow: 0 0 20px 0 #3333ff !important;
+}
+.red,.days h4, blockquote p span,.timeline .timeline-box span,.s6 h3{
+	color: #3333ff !important;
+}
+.timeline-box:hover, .timeline-box:focus {
+    -webkit-box-shadow: 0px 3px 0px 0px #3333ff;
+    -moz-box-shadow: 0px 3px 0px 0px #3333ff;
+    box-shadow: 0px 3px 0px 0px #3333ff;
+}
+.underline {
+    border-bottom: 2px solid #3333ff !important;}
+    blockquote:before, blockquote:after {
+    color: #3333ff;
+    background: linear-gradient(to right, #3333ff 45%, transparent 45%, transparent), linear-gradient(to right, transparent, transparent 55%, #3333ff 55%);
+}
+    .fline .fbtn {
+    box-shadow: 0 5px 10px 0 rgba(51, 51, 255, 0.53); !important;;
+}.sel img{
+
+     -webkit-filter: hue-rotate(240deg);
+    filter: hue-rotate(240deg);
+}
+.main-head {
+    background-image: url("../img/bg2.jpg");}
+.main-head .red, .s2 .red{
+   color: #86c6f7 !important; 
+}
+.mtable .red{color: #e91a45 !important;}
