@@ -1,0 +1,1475 @@
+@font-face {
+    font-family: Airborne;
+    src: local('Airborne'), url(../fonts/airborne/airborne.woff2) format('woff2'), url(../fonts/airborne/airborne.woff) format('woff'), url(../fonts/airborne/airborne.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/gilroy/Gilroy-Heavy.eot);
+    src: local('Gilroy Heavy'), local('Gilroy-Heavy'), url(../fonts/gilroy/Gilroy-Heavy.eot?#iefix) format('embedded-opentype'), url(../fonts/gilroy/Gilroy-Heavy.woff) format('woff'), url(../fonts/gilroy/Gilroy-Heavy.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/gilroy/Gilroy-Light.eot);
+    src: local('Gilroy Light'), local('Gilroy-Light'), url(../fonts/gilroy/Gilroy-Light.eot?#iefix) format('embedded-opentype'), url(../fonts/gilroy/Gilroy-Light.woff) format('woff'), url(../fonts/gilroy/Gilroy-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/gilroy/Gilroy-Regular.eot);
+    src: local('Gilroy Regular'), local('Gilroy-Regular'), url(../fonts/gilroy/Gilroy-Regular.eot?#iefix) format('embedded-opentype'), url(../fonts/gilroy/Gilroy-Regular.woff) format('woff'), url(../fonts/gilroy/Gilroy-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/gilroy/Gilroy-Medium.eot);
+    src: local('Gilroy Medium'), local('Gilroy-Medium'), url(../fonts/gilroy/Gilroy-Medium.eot?#iefix) format('embedded-opentype'), url(../fonts/gilroy/Gilroy-Medium.woff) format('woff'), url(../fonts/gilroy/Gilroy-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/gilroy/Gilroy-UltraLight.eot);
+    src: local('Gilroy UltraLight'), local('Gilroy-UltraLight'), url(../fonts/gilroy/Gilroy-UltraLight.eot?#iefix) format('embedded-opentype'), url(../fonts/gilroy/Gilroy-UltraLight.woff) format('woff'), url(../fonts/gilroy/Gilroy-UltraLight.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/gilroy/Gilroy-Bold.eot);
+    src: local('Gilroy Bold'), local('Gilroy-Bold'), url(../fonts/gilroy/Gilroy-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/gilroy/Gilroy-Bold.woff) format('woff'), url(../fonts/gilroy/Gilroy-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/gilroy/Gilroy-Thin.eot);
+    src: local('Gilroy Thin'), local('Gilroy-Thin'), url(../fonts/gilroy/Gilroy-Thin.eot?#iefix) format('embedded-opentype'), url(../fonts/gilroy/Gilroy-Thin.woff) format('woff'), url(../fonts/gilroy/Gilroy-Thin.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/gilroy/Gilroy-Black.eot);
+    src: local('Gilroy Black'), local('Gilroy-Black'), url(../fonts/gilroy/Gilroy-Black.eot?#iefix) format('embedded-opentype'), url(../fonts/gilroy/Gilroy-Black.woff) format('woff'), url(../fonts/gilroy/Gilroy-Black.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal
+}
+
+body {
+    font-size: 14px
+}
+
+section#block1 {
+    background-image: url(../img/top_bg.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    padding-top: 30px
+}
+
+section#block1 img, section#block0 img  {
+    float: left;
+    margin-right: 15px
+}
+
+p {
+    font-family: Gilroy, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2c2c2c;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding-bottom: 10px
+}.modal-content{
+
+    border-radius: 0px;
+    padding: 40px;
+    text-align: center;
+}
+._full_width label{
+    display: none;
+}
+.form-check{
+    text-align: left
+}
+.form-check {
+    position:relative;
+    padding-left:25px;
+}
+.form-check input[type=checkbox] {
+    display:none;
+}
+.form-check label:after {
+    content:'';
+    top: 10px !important;
+    display:block;
+    height:15px;
+    width:15px;
+    outline:1px solid #E0E0E0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+ .form-check input[type=checkbox]:checked + label:after {
+    outline:1px solid #E0E0E0;
+    background: url(../img/icon/g.png);
+    background-repeat: no-repeat;
+    background-size: 8px;
+    background-position: center;
+    top: 10px;
+    border:2px solid #fff;
+    width:15px;
+    height:15px;
+}
+a.red{
+    border-bottom: 1px solid;
+}._form-content.form-group {
+    margin-bottom: 0px;
+}a:hover {
+    color: #d73632;
+    text-decoration: none;
+}
+input.form-control {
+    height: 45px;
+    border: 1px solid rgba(0,0,0,0);
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    text-align: left;
+    padding-left: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black !important;
+    line-height: 45px;
+    font-family: Gilroy;
+    margin-bottom: 10px;
+}
+
+.modal-dialog{
+    max-width: 400px;
+}
+::placeholder{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black !important;
+    line-height: 45px;
+    font-family: Gilroy;
+}
+.form-control:focus{
+    border-color: #80bdff00;
+    border-bottom: 1px solid #df3834;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(223, 56, 52, 0);
+
+}
+._field-wrapper{
+position: relative;}
+.modal{
+    counter-reset: list;
+}._field-wrapper:after {
+counter-increment: list;
+content: "0"counter(list);
+    position: absolute;
+    color: #df3834;
+    top: 0px;
+    right: 0px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Gilroy;}
+
+button.close{
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    opacity: 1;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: black;
+}
+button.close:focus{
+    border-color: #80bdff00;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(223, 56, 52, 0);
+}
+h5.modal-title {
+    font-family: Airborne;
+    font-style: normal;
+    padding: 0 0 10px
+}
+input.form-control {
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0);
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+._error-inner {
+    color: #c82333;
+    font-family: Gilroy;
+    font-weight: 400
+}
+
+._form-thank-you {
+    font-family: Airborne;
+    font-style: normal;
+    padding: 0;
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    color: green
+}
+
+._html-code {
+    padding: 10px 0 20px;
+    border-top: 1px solid rgba(211, 211, 211, .3)
+}
+
+label {
+    font-family: Gilroy, sans-serif
+}
+
+button#_form_1_submit {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.date {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    float: left;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 15px
+}
+
+.date img {
+    width: 20px
+}
+
+.apr p,
+.d-none.d-sm-block p {
+    margin-top: 5px !important
+}
+
+section#block1 .row.justify-content-between p, section#block0 .row.justify-content-between p {
+    margin-top: 0
+}
+
+h1 {
+    font-family: Airborne;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 53px;
+    color: #000;
+    margin: 42px 0
+}
+
+.btn-danger {
+    background-color: #df3834;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 15px;
+    border-radius: 2px;
+    border-color: transparent;
+    box-shadow: 10px 10px 0 -2px #fff, 10px 10px 0 0 #000, -10px 5px 15px 5px transparent;
+    -webkit-box-shadow: 10px 10px 0 -2px #fff, 10px 10px 0 0 #000, -10px 5px 15px 5px transparent;
+    cursor: pointer;
+    transition: all .3s ease
+}
+
+.btn-danger:hover {
+    animation: gradient 10s ease infinite;
+    box-shadow: .2vw .2vw 0 -2px #fff, .2vw .2vw 0 0 #000, -10px 5px 15px 5px transparent
+}
+
+@keyframes gradient {
+    50% {
+        background-position: 100% 0
+    }
+}
+
+.number {
+    font-family: Airborne;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 78px;
+    margin-bottom: 0;
+    color: #fff;
+    text-shadow: 0 -1px 0 #df3834, 0 -1px 0 #df3834, 0 1px 0 #df3834, 0 1px 0 #df3834, -1px 0 0 #df3834, 1px 0 0 #df3834, -1px 0 0 #df3834, 1px 0 0 #df3834, -1px -1px 0 #df3834, 1px -1px 0 #df3834, -1px 1px 0 #df3834, 1px 1px 0 #df3834, -1px -1px 0 #df3834, 1px -1px 0 #df3834, -1px 1px 0 #df3834, 1px 1px 0 #df3834
+}
+
+.red {
+    color: #d73632;
+    text-shadow: none
+}
+
+.light {
+    position: relative;
+    font-weight: 400;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px
+}
+
+p.light:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 17%;
+    border-top: 2px solid #ebebeb;
+    content: ""
+}
+
+.col-sm-4:nth-child(2n) .light:after {
+    border-top: 1px solid #d73632
+}
+
+.three {
+    margin-top: 100px
+}
+
+.three .col-sm-4:nth-child(2n) {
+    margin-top: 70px
+}
+
+.three .col-sm-4:last-child {
+    margin-top: 140px
+}
+
+section#block1 h1 img{
+    float: none
+}
+section#block1 h1 img {
+
+    margin-top: 35vw;
+}
+section#block0{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+section#block1 h1{
+    margin-top: 42px 0;
+}
+section#block2 {
+    background: url(../img/bg2.png);
+    background-size: contain;
+    background-position: 0vw 13vw;
+    background-repeat: no-repeat
+}
+
+section#block2 .row:first-child {
+    position: relative;
+    margin-top: 40px
+}
+
+section#block2 .row:first-child .col-12:first-child {
+    position: absolute;
+    left: -180px;
+    top: -100px;
+    background-image: url(../img/elipse1.png);
+    z-index: -1;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+section#block2 .row:first-child .col-12 img {
+    width: 55%;
+    padding-top: 70px;
+    display: inherit;
+    margin: 0 35%
+}
+
+h3 {
+    font-family: Airborne;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 120%
+}
+
+svg {
+    background: 0 0
+}
+
+ul {
+    padding-left: 0
+}
+
+.bol ul li {
+    display: flex;
+    align-items: center;
+    min-height: 30px;
+    list-style: none;
+    background: url(../img/icon/xico.png) no-repeat 0 4px;
+    background-size: 30px;
+    padding-left: 35px;
+    margin-top: 10px
+}
+
+.bol ul li p {
+    color: #fff;
+    padding: 0;
+    margin: 0
+}
+
+.white {
+    color: #fff
+}
+
+.quote {
+    border-top: 2px solid #df3834;
+    border-bottom: 2px solid #df3834;
+    padding: 15px 0
+}
+
+.margin-t-30 {
+    margin-top: 30px
+}
+
+.margin-t-20 {
+    margin-top: 20px
+}
+
+.col-sm-7.offset-sm-1 {
+    padding-right: 45px;
+    display: flex;
+    align-items: center
+}
+
+.conclusion {
+    margin: 40px 0;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 1px 11px 100px rgba(110, 123, 129, .25)
+}
+
+#block6 .row:first-child .col-sm-6:last-child,
+.conclusion .col-sm-4 {
+    padding: 0
+}
+
+#block6 .row:first-child .col-sm-6:last-child img,
+.conclusion img {
+    max-width: 100%
+}
+
+.conclusion .border {
+    width: calc(100% - 20px);
+    left: 10px;
+    top: 10px;
+    height: calc(100% - 20px);
+    border: 1px solid #c4c4c4;
+    position: absolute
+}
+
+section#block2 .text-center img {
+    max-height: 70px
+}
+
+h4 {
+    font-family: Gilroy;
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: 700;
+    color: #2c2c2c
+}
+
+section#block3 hr {
+    border: none;
+    background-color: #df3834;
+    color: #df3834;
+    height: 2px;
+    width: 90px
+}
+
+span.day {
+    background-color: #df3834;
+    color: #fff;
+    font-weight: 700;
+    padding: 2px 5px
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 0
+}
+
+ol li,
+ul.know li {
+    display: flex;
+    align-items: center;
+    min-height: 35px;
+    list-style: none;
+    margin-top: 10px;
+    font-weight: 500
+}
+
+ul.know li img {
+    max-height: 35px;
+    margin-right: 20px
+}
+
+ul.can li img {
+    max-height: 30px
+}
+
+section#block3 .row:nth-child(3) {
+    position: relative
+}
+
+.iknow {
+    width: 51vw;
+    position: absolute;
+    left: -18vw
+}
+
+.margin-30 {
+    padding: 120px 0
+}
+
+.arrowred {
+    position: absolute;
+    bottom: -20px;
+    max-height: 60px
+}
+
+section#block4 {
+    color: #fff;
+    background: url(../img/bg4.png);
+    padding: 160px 0;
+    background-size: 107vw;
+    background-position: -6vw -6vw;
+    background-repeat: no-repeat
+}
+
+.text1 {
+    background: url(../img/body.jpg);
+    background-size: cover
+}
+
+.text {
+    background: url(../img/imgprbg.jpg);
+    background-size: cover
+}
+
+section#block3 h2,
+section#block5 h2 {
+    color: #000;
+    background: #fff;
+    mix-blend-mode: lighten;
+    font-size: 90px;
+    font-family: Airborne
+}
+
+.dash span:first-child {
+    font-family: Gilroy;
+    font-weight: 900
+}
+
+section#block5 {
+    overflow: hidden
+}
+
+.ican {
+    max-height: calc(100% - 90px);
+    position: absolute;
+    left: -20%;
+    top: 20px;
+    width: auto
+}
+
+section#block6 .col-sm-6 .arrowred {
+    top: -150px;
+    right: 0
+}
+
+section#block6 {
+    background-image: url(../img/bg6.png);
+    background-size: 100vw 55%;
+    background-position: 0 -8%;
+    background-repeat: no-repeat;
+    padding-bottom: 0;
+    padding: 180px 0 120px;
+}
+
+.border-left {
+    height: 50px;
+    border-left: 1px solid #df3834 !important
+}
+
+.col-12 .border-left {
+    height: 100px
+}
+
+section#block6 h2,
+section#block7 h2,
+section#block8 h2 {
+    font-family: Airborne;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    margin: 0
+}
+
+@supports (-webkit-text-stroke:1px blue) {
+    section#block6 h2.number {
+        color: transparent;
+        -webkit-text-stroke: 1px #fff
+    }
+}
+
+section#block6 .author h2,
+section#block7 .author h2,
+section#block8 .author h2 {
+    font-size: 60px
+}
+
+.author .col-sm-5:first-child {
+    padding-right: 0
+}
+
+section#block6 h2.number {
+    font-size: 60px;
+    text-shadow: none;
+    position: absolute;
+    left: 190px
+}
+
+section#block6 .col-sm-4:nth-child(2) h2.number,
+section#block6 .col-sm-4:nth-child(3) h2.number {
+    left: 155px
+}
+
+section#block6 .col-sm-4:nth-child(2) h2.number {
+    color: #df3834;
+    -webkit-text-stroke: 0 #fff
+}
+
+.threesteps img.margin-t-30 {
+    max-height: 100px
+}
+
+.myprogress h3.red {
+    font-size: 30px;
+    margin-bottom: 0
+}
+
+#block6 .myprogress p {
+    margin-top: 0
+}
+
+.quote2 {
+    margin-top: 50px
+}
+
+.quote2 .col-sm-2 {
+    padding: 0
+}
+
+.qte p {
+    line-height: 24px
+}
+
+.qte {
+    margin: 0 20px;
+    padding: 20px 0;
+    border: 2px solid #df3834;
+    border-left: 0;
+    border-right: 0
+}
+
+section#block7 {
+    background-image: url(../img/bg7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -2vh
+}
+
+.bg-white {
+    padding: 30px 45px;
+    border-right: 1px solid #373b49
+}
+
+.bg-white img {
+    max-height: 60px
+}
+
+section#block7 .row.margin-t-30 {
+    margin-left: 0;
+    margin-right: 0
+}
+
+section#block8 h2.white {
+    font-size: 50px
+}
+
+section#block8 {
+    background: url(../img/1111.png);
+    background-size: 110vw;
+    background-position-y: bottom;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+section#block8 h2 img {
+    transform: rotate(-90deg);
+    max-height: 100%
+}
+
+.questions {
+    margin-left: calc(11% - 15px);
+    outline: 1px solid rgba(133, 152, 159, .1);
+    outline-offset: -10px;
+    padding: 30px 20px 60px 50px;
+    box-shadow: 1px 11px 100px rgba(110, 123, 129, .25);
+    border-right: 0
+}
+
+.questions p,
+.questions strong {
+    font-size: 17px
+}
+
+button.last {
+    font-size: 10px;
+    width: 75%
+}
+
+#block8 .border-left {
+    bottom: 5vw;
+    position: absolute;
+    height: 100px
+}
+
+ol {
+    counter-reset: myCounter;
+    padding-left: 0
+}
+
+ol li {
+    font-size: 17px;
+    min-height: 50px !important;
+    font-weight: 400
+}
+
+ol li:before {
+    counter-increment: myCounter;
+    content: "0"counter(myCounter);
+    color: #fff;
+    font-family: Airborne;
+    font-size: 50px;
+    text-shadow: 0 -1px 0 #df3834, 0 -1px 0 #df3834, 0 1px 0 #df3834, 0 1px 0 #df3834, -1px 0 0 #df3834, 1px 0 0 #df3834, -1px 0 0 #df3834, 1px 0 0 #df3834, -1px -1px 0 #df3834, 1px -1px 0 #df3834, -1px 1px 0 #df3834, 1px 1px 0 #df3834, -1px -1px 0 #df3834, 1px -1px 0 #df3834, -1px 1px 0 #df3834, 1px 1px 0 #df3834;
+    line-height: 50px;
+    margin-right: 40px;
+    min-width: 65px
+}
+
+@supports (-webkit-text-stroke:1px blue) {
+    ol li:before {
+        color: transparent;
+        -webkit-text-stroke: 1px #fff;
+        text-shadow: none
+    }
+}
+
+ol li:nth-child(2):before {
+    color: #df3834;
+    text-shadow: none;
+    -webkit-text-stroke: 0
+}
+
+#block8 .col-12 .border-left {
+    bottom: -20vh;
+    left: 51%
+}
+
+section#block9 {
+    background-color: #2f4556;
+    background: url(../img/footer.png) bottom no-repeat, radial-gradient(185.98% 185.98% at 50% 117.52%, #001422 0, #4c6377 100%), #2b5a84;
+    overflow: hidden;
+    padding: 80px 0
+}
+
+#block9 h5 {
+    font-weight: 400;
+    padding: 0 60px
+}
+
+.col-sm-6.white button {
+    width: 100%;
+    -webkit-box-shadow: 10px 10px 0 -2px #3f2835, 10px 10px 0 0 #fff;
+    box-shadow: 10px 10px 0 -2px #3f2835, 10px 10px 0 0 #fff, -10px 5px 15px 5px transparent
+}
+
+#block9 button {
+    padding: 25px 0;
+    background: #cf1c1a;
+    background: linear-gradient(0deg, #cf1c1a 0, #eb4d47 100%);
+    -webkit-box-shadow: 10px 10px 0 -2px #152939, 10px 10px 0 0 #fff;
+    box-shadow: 10px 10px 0 -2px #152939, 10px 10px 0 0 #fff, -10px 5px 15px 5px transparent;
+    max-width: 55%
+}
+
+@media screen and (max-width:575px) {
+    .container {
+        padding-right: 40px;
+        padding-left: 40px
+    }
+.modal-content{
+    padding: 20px;
+    text-align: center;
+}
+    section#block1 {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../img/bg.png)
+    }
+section#block1 h1{
+    margin-top: 25px;
+    margin-bottom: 8vw;
+}
+
+    section#block2 .row:first-child .d-block.d-sm-none img {
+        padding: 0;
+        margin: 0;
+        width: 100%
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 36px;
+        max-width: 50vw
+    }
+
+    h3 {
+        font-size: 28px
+    }
+
+    .apr,
+    .three,
+    .three .col-sm-4:last-child,
+    .three .col-sm-4:nth-child(2n) {
+        margin-top: 30px
+    }
+
+    .apr .date {
+        border: 1px solid #000;
+        padding: 14px
+    }
+
+    section#block2 {
+    background: url(../img/bg_xs_2.png);
+    background-size: 100vw 450vw;
+    background-position: 0 200vw;
+    background-repeat: no-repeat;
+    }
+
+    .text1 {
+        max-width: 280px;
+        max-height: 80px
+    }
+
+    .row.bol .col-sm-4:last-child ul li:first-child,
+    .row.threesteps.margin-t-30 {
+        margin-top: 0;
+        background-position: top
+    }
+
+    .row.bol .col-sm-4:last-child ul li:first-child {
+        background-position: left
+    }
+
+    h6 {
+        font-size: 24px
+    }
+
+    .conclusion {
+        margin: 30px -15px
+    }
+
+    .col-sm-7.offset-sm-1 {
+        padding: 25px 40px
+    }
+
+    h4 {
+        font-size: 25px
+    }
+
+    section#block3 {
+        overflow: hidden
+    }
+
+    section#block3 h2,
+    section#block5 h2 {
+        font-size: 80px
+    }
+
+    section#block3 .container .row:nth-child(2) {
+        margin-top: 170px
+    }
+
+    .iknow {
+        width: 100vw;
+        position: absolute;
+        top: -300px;
+        left: -20px;
+        z-index: -1
+    }
+
+    .border-top {
+        border-color: transparent !important
+    }
+
+    ul.know li {
+        margin-top: 13px;
+        font-size: 17px;
+        white-space: pre-line
+    }
+
+    section#block4 {
+        background: url(../img/bg_xs_3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-bottom: 0;
+        padding: 130px 0;
+        background-size: 100vw 100%
+    }
+
+    #block5 .row.margin-t-30.text-center.d-block.d-sm-none {
+        margin-bottom: 100px
+    }
+
+    #block5 .row:nth-child(4) {
+        margin-top: 50px
+    }
+
+    #block5 {
+        overflow: hidden
+    }
+
+    #block5 .iknow {
+        top: -30vw;
+        max-width: 95%;
+        left: 60px
+    }
+
+    h5.border-top.margin-t-30 {
+        border-color: #ebebeb !important
+    }
+
+    section#block6 {
+        padding: 50px 0;
+        overflow: hidden;
+        background-size: 100vw 47%;
+        background-image: url(../img/bg_xs_6.png);
+        background-position: top
+    }
+
+    section#block6 .col-sm-6.d-block.d-sm-none img.w-100 {
+        padding-bottom: 30px
+    }
+
+    .row.threesteps br {
+        display: none
+    }
+
+    .threesteps img.margin-t-30 {
+        max-height: 100px;
+        max-height: none;
+        width: 250px
+    }
+
+    section#block6 h2.number {
+        left: 240px !important
+    }
+
+    .threesteps .col-sm-4 {
+        margin-top: 30px
+    }
+
+    #block6 p {
+        margin-top: 20px
+    }
+
+    .row.text-center.arrowborderwhite {
+        text-align: left !important;
+        margin-top: 30px
+    }
+
+    #block6 .border-left {
+        margin: 15px 0
+    }
+
+    section#block6 .author h2 {
+        font-size: 45px;
+        margin-top: 90px
+    }
+
+    section#block7 {
+        overflow: hidden
+    }
+
+    section#block7 .row:first-child {
+        text-align: center
+    }
+
+    section#block7 {
+        background-position: 0 50px;
+        background-repeat: no-repeat;
+        background-image: url(../img/bg_xs_7.png);
+        background-size: cover
+    }
+
+    section#block7 {
+        font-size: 45px;
+        text-align: left;
+        margin-bottom: 100px
+    }
+
+    section#block7 .row.whiteblock {
+        margin: 30px -40px 0
+    }
+
+    section#block7 .bg-white {
+        padding: 45px;
+        padding-right: 60px;
+        border-right: none;
+        border-bottom: 1px solid #373b49
+    }
+
+    section#block7 .bg-white p {
+        margin-top: 60px
+    }
+
+    #block7 .container.margin-30 {
+        padding-bottom: 0
+    }
+
+    section#block8 {
+        background-position: bottom !important;
+        background-repeat: no-repeat !important;
+        background-size: 100vw 58% !important;
+        background: url(../img/bg_xs_8.png);
+        padding: 0;
+        padding-bottom: 100px;
+        overflow: visible
+    }
+
+    section#block8 h2 img {
+        transform: rotate(0);
+        position: absolute;
+        bottom: -15px;
+        margin-left: 15px
+    }
+
+    #block8 .col-sm-5.author {
+        margin: 25vw 0 0
+    }
+
+    .questions {
+        background-color: transparent !important;
+        margin-left: 0;
+        outline: 0;
+        padding: 30px 15px;
+        box-shadow: none;
+        border-right: 0
+    }
+
+    .questions button.last,
+    section#block8 .col-sm-5.white button {
+        width: 100%
+    }
+
+    section#block8 h2.white {
+        font-size: 40px;
+        margin: 50px 0 30px
+    }
+
+    #block9 h5 {
+        padding: 0 30px
+    }
+
+    #block9 h5,
+    #block9 strong {
+        font-size: 18px
+    }
+
+    #block9 button {
+        max-width: 100%;
+        padding: 20px 20px;
+        font-size: 14px
+    }
+
+    section {
+        overflow: hidden
+    }
+
+    section#block7 .author h2 {
+        font-size: 45px;
+        text-align: left
+    }
+}
+
+@media screen and (max-width:359px) {
+    section#block1 .row.justify-content-between p, section#block0 .row.justify-content-between p{
+        font-size: 12px
+    }
+
+section#block1 h1{
+    margin: 15px 0;
+    font-size: 22px;
+    line-height: 1.25;
+}
+section#block6 {
+    background-size: 100vw 45.5%;}
+    h1 {
+        font-size: 25px
+    }
+
+    h3 {
+        font-size: 23px
+    }
+
+    .threesteps img.margin-t-30 {
+        width: 220px
+    }
+
+    section#block6 h2.number {
+        left: 210px !important
+    }
+
+    section#block7 {
+        margin-bottom: 60px
+    }
+
+    section#block3 h2,
+    section#block5 h2 {
+        font-size: 60px
+    }
+
+    section#block6 .author h2,
+    section#block7 .author h2,
+    section#block8 .author h2 {
+        font-size: 40px
+    }
+
+    section#block8 {
+        background-size: 100vw 62% !important
+    }
+}
+
+@media screen and (min-width:1800px) {
+    .three {
+        margin-top: 13vw
+    }
+
+    section#block2 {
+    background-size: 100vw 60vw;
+    background-position: 0 10vw;
+    }
+    section#block4{
+    	
+    padding: 0px;
+    padding-top: 17vw;
+    background-size: 100vw;
+    background-position: center;
+    }
+.arrowred {
+    position: absolute;
+    bottom: -4vw;
+    max-height: 60px;
+}
+    .iknow {
+        top: 0;
+        left: -25vw
+    }
+
+    section#block5 {
+        margin-top: 5vh
+    }
+
+    section#block6 {
+    background-position: 0 -3vw;
+    }
+
+    section#block7 {
+    padding-top: 2vw;
+    height: 48vw;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    }
+
+    section#block8 {
+        background-size: cover
+    }
+}
+
+@media screen and (min-width:2000px) {
+    .container {
+        max-width: 1200px
+    }
+
+    #block1 .row.justify-content-between:nth-child(2) {
+        padding-top: 200px
+    }
+
+    #block2 .row.d-none.d-sm-block {
+        margin-top: 20vh
+    }
+
+    .iknow {
+        width: 45vw
+    }
+
+    section#block4 {
+        padding: 20vh 0
+    }
+
+    #block6 .row:first-child {
+        margin: 10vh 0
+    }
+
+    .threesteps img.margin-t-30 {
+        max-height: 350px
+    }
+
+    #block6 .row:nth-child(5) {
+        margin-top: 10vh
+    }
+
+    section#block8 {
+        background-position: 0 35%
+    }
+}
+
+@media screen and (max-width:340px) {
+    section#block2 {
+        background: url(../img/bg_xs_2.png);
+        background-size: contain;
+        background-position: 0 52%;
+        background-repeat: no-repeat
+    }
+}
+
+@media only screen and (max-width:1250px) and (min-width:993px) {
+    section#block2 {
+        background: url(../img/bg2.png);
+        background-size: contain;
+        background-position: 40% 28vh;
+        background-repeat: no-repeat
+    }
+}
+
+
+@media only screen and (max-width:1240px) and (min-width:900px) {
+    section#block2 {
+    background-size: contain;
+    background-position: 40% 20vw;}
+    section#block4 {
+    background-size: 155vw;
+    background-position: -30vw -12vw;
+}
+    section#block8 {background-size: 130vw;
+    }
+}
+@media only screen and (max-width:575px) and (min-width:400px) {
+    section#block2 {
+    background-size: 100vw 240vh;
+    background-position: 0 173vw;
+    }
+}
+
+@media only screen and (max-width:992px) and (min-width:576px) {
+    section#block1 {
+        background-size: 200vw;
+    background-position-x: 60%;
+            background-repeat: no-repeat
+    }
+
+    section#block2 .row:first-child .col-12:first-child {
+        bottom: -5vh;
+        left: -12vw;
+        top: auto
+    }
+
+    .conclusion .col-sm-7.offset-sm-1 {
+        margin-left: 0;
+        max-width: 66%;
+        padding-right: 0
+    }
+
+    .conclusion {
+        padding: 20px
+    }
+
+    #block3 .iknow {
+        width: 70vw
+    }
+
+    section#block6 {
+        background-size: 220%;
+        overflow: hidden
+    }
+
+    section#block2 {
+        background-size: 160vw;
+        background-position: 0 30vw
+    }
+
+    section#block4 {
+        background-size: 100vw 100%!important;
+        background: url(../img/bg_xs_3.png);
+    background-position: center;
+        background-repeat: no-repeat
+    }
+
+    section#block5 h2,
+    section#block6 .author h2,
+    section#block6 h2,
+    section#block7 .author h2,
+    section#block8 .author h2 {
+        font-size: 50px
+    }
+
+    #block5 .ican {
+    right: -32vw;
+    left: auto;
+    height: auto;
+    width: 80vw !important;
+    }
+
+    section#block6 .col-sm-6 .arrowred {
+        top: -100px
+    }
+
+    .threesteps img.margin-t-30 {
+        max-height: 12vw
+    }
+section#block6 {
+    background-size: 165vw;
+    background-position-x: center;
+    background-position-y: 4vw;
+    }
+section#block6 .col-sm-4:nth-child(2) h2.number{
+    left: 105px;
+}
+    section#block7 {
+        background-position: center
+    }
+
+    .questions {
+        padding: 30px
+    }
+
+    section#block8 {
+        padding: 60px 0
+    }
+
+    #block8 .border-left {
+        bottom: 20vh
+    }
+
+    section#block8 .author h2,
+    section#block8 h2.white {
+        font-size: 35px
+    }
+
+    button.last {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width:992px) and (min-width:780px) {
+section#block6 .col-sm-4:nth-child(2) h2.number{
+    left: 155px;
+}
+    .three {
+    margin-top: 24vw;
+}section#block8 {
+    background-size: 200vw;
+    background-position-x: center;
+}section#block2 {
+    background-size: 180vw;
+    background-position: -10vw 23vw;
+}
+
+}
+@media only screen and (max-width:779px) and (min-width:700px) {
+section#block1 h1{   
+    font-size: 35px;
+    line-height: 1.3;
+}section#block2 {
+    background-size: 240vw;
+    background-position: -20vw 28vw;
+}.threesteps img.margin-t-30 {
+    max-height: 10vw;
+}
+section#block6 {
+    background-position-y: top;
+    background-position-x: center;
+    background-size: 250vw;
+    overflow: hidden;
+}
+section#block8 {
+    background-size: 250vw;
+    background-position-x: 40%;
+}section#block6 h2.number {
+    font-size: 60px;
+    text-shadow: none;
+    position: absolute;
+    left: 130px;
+}section#block6 .col-sm-4:nth-child(3) h2.number {
+    left: 105px;
+}
+
+}
+@media only screen and (max-width:699px) and (min-width:576px) {
+    section#block1 h1 {
+    font-size: 35px;
+    line-height: 1.3;
+}.three {
+    margin-top: 50px;
+}section#block2 {
+    background-size: 250vw;
+    background-position: -20vw 35vw;
+}section#block6 {
+    background-size: 300vw;
+    background-position-x: center;
+    background-position-y: 2vw;
+}section#block6 h2.number {
+    left: 125px;
+}
+.col-sm-4:nth-child(2) h2.number, section#block6 .col-sm-4:nth-child(3) h2.number {
+    left: 105px;
+}section#block8 {
+    background-size: 310vw;
+    background-position-x: 40%;
+}
+}
