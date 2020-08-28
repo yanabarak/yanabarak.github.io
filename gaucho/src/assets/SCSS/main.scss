@@ -1,0 +1,73 @@
+button{
+  outline: 0;
+  &:focus{
+    outline: 0;
+  }
+}
+h1{
+  font-family: $font_family-bold;
+}
+h2{
+  font-family: $font_family-bold;
+  font-size: 38px;
+  line-height: 1.05;
+  font-weight: bold;
+}
+.mini{
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+.bold{
+  font-weight: bold;
+}
+body{
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-family: $font_family-base;
+}
+.container-fluid{
+  overflow: hidden;
+}
+a.button{
+  color: white;
+  font-family: $font_family-bold;
+  text-decoration: none;
+
+  &:hover{
+    text-decoration: 0px solid $color_imp;
+    color: $color_imp;
+    border: 0px;
+  }
+  &.gold:hover{
+    color: $color_nav;
+  }
+}
+.brown {
+  color: $color_nav;
+}
+.gold {
+  color: $color_imp !important;
+}
+p{
+  font-size: 18px;
+  font-weight: 600;
+  font-family: $font_family-base;
+
+  &.first-p{
+    margin-top: 48px;
+    margin-bottom: 24px;
+  }
+  &.last-p{
+    margin-bottom: 48px;
+  }
+}
+p.light{
+  font-weight: 100;
+  font-family: $font-family-light;
+}
+
+@media screen and (min-width: 1199px){
+  .row h1 {
+    font-size: 2.5vw;
+  }
+}
